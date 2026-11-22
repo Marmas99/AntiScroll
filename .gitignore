@@ -1,0 +1,29 @@
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.sln.iml
+
+# .NET build and test output
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+artifacts/
+*.binlog
+
+# MAUI app packages and signing keys
+*.apk
+*.aab
+*.ipa
+*.msix
+*.msixbundle
+*.keystore
+*.jks
+*.pfx
+*.p12
+*.mobileprovision
+
+# macOS metadata
+.DS_Store
