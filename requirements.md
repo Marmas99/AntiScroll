@@ -43,3 +43,7 @@ EARS stands for Easy Approach to Requirements Syntax, which is a structured way 
 - If the user looks at an app when the allowance reaches 0, AntiScroll shall prevent access to the app until the screentime allowance is replenished according to the habit settings.
 - If the user denies the permissions to access "IOS screentime" functionality, AntiScroll shall not be able to enforce app blocks and shall notify the user about the limited functionality.
 - If the user undoes a "habit" completion and the available screen time allowance is less than the allowance granted by that completion, then AntiScroll shall prevent the undo and inform the user that the earned time has already been used.
+
+
+## Technical Requirements
+- AntiScroll shall be written in Swift.
