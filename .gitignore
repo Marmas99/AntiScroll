@@ -1,27 +1,19 @@
+# Editors
 .vscode/
-.vs/
 .idea/
-*.user
-*.suo
-*.userprefs
-*.sln.iml
 
-# .NET build and test output
-[Bb]in/
-[Oo]bj/
-[Tt]est[Rr]esults/
-artifacts/
-*.binlog
+# Xcode / Swift build output
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+.build/
 
-# MAUI app packages and signing keys
-*.apk
-*.aab
+# App packages and signing
 *.ipa
-*.msix
-*.msixbundle
-*.keystore
-*.jks
-*.pfx
+*.dSYM.zip
+*.dSYM
 *.p12
 *.mobileprovision
 
